@@ -44,6 +44,7 @@ foodItems.forEach((item) => {
 });
 
 export function renderMenu () {
+	container.innerHTML = '';
 	container.appendChild(itemsContainer);
 	console.log(foodItems);
 }

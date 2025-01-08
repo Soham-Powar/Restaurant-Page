@@ -17,5 +17,6 @@ newDiv.innerHTML = `<img src="${restaurantImg}" alt="">
 			Name].</p> </div>`
 
 export function renderHome () {
+	container.innerHTML = '';
 	container.appendChild(newDiv);	
 }
