@@ -103,7 +103,7 @@ nav>button {
 }
 
 nav>button:hover {
-	background-color: red;
+	background-color: #2c2c2c;
 }
 
 .btn-selected {
