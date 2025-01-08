@@ -1,0 +1,20 @@
+.home-contents {
+	background-color: #2C2C2C;
+	display: flex;
+	padding: 20px;
+	gap: 50px;
+}
+
+.home-contents>div {
+	background-color: #EDE0D4;
+	padding: 50px;
+	font-size: larger;
+}
+
+.home-contents>img {
+	height: 700px;
+}
+
+body {
+	background-color: black;
+}
