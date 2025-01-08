@@ -2,7 +2,7 @@ import './styles.css'
 
 import { renderHome } from "./pages/home/home.js";
 import { renderMenu } from "./pages/menu/menu.js";
-// import { renderAbout } from "./pages/about/about.js";
+import { renderAbout } from "./pages/about/about.js";
 
 let navBtns = document.querySelectorAll('nav button');
 
@@ -22,10 +22,10 @@ navBtns.forEach((btn) => {
 			btn.classList.add('btn-selected');
 			renderMenu();
 		}
-		// else if(btn.innerHTML === 'About') {
-		// 	btn.classList.add('btn-selected');
-		// 	renderAbout();
-		// }
+		else if(btn.innerHTML === 'About') {
+			btn.classList.add('btn-selected');
+			renderAbout();
+		}
 	});
 });
 
