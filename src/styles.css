@@ -9,6 +9,7 @@
 /* 2. Remove default margin */
 * {
 	margin: 0;
+	font-family: 'PT Serif';
 }
 
 body {
@@ -89,13 +90,14 @@ nav {
 header>h4 {
 	flex: 1;
 	font-size: 40px;
+	color: #ede0d4;
 }
 
 nav>button {
 	padding: 7px;
 	width: 120px;
 	background-color: black;
-	color: white;
+	color: #ede0d4;
 	border: none;
 	border-top-left-radius: 15px;
 	border-top-right-radius: 15px;
