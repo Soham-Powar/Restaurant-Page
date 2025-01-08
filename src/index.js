@@ -5,6 +5,15 @@ import { renderMenu } from "./pages/menu/menu.js";
 import { renderAbout } from "./pages/about/about.js";
 
 let navBtns = document.querySelectorAll('nav button');
+let footer = document.querySelector('footer');
+
+function addFooter() {
+	footer.innerHTML = `
+		made with ❤️
+		${new Date().getFullYear()}
+	`;
+}
+
 
 navBtns.forEach((btn) => {
 	console.log(btn);
@@ -32,4 +41,5 @@ navBtns.forEach((btn) => {
 document.addEventListener("DOMContentLoaded", () => {
 	navBtns[0].classList.add('btn-selected');
 	renderHome();
+	addFooter();
 });
